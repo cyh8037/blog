@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="ative grid min-h-screen grid-cols-[1fr_2.5rem_auto_2.5rem_1fr] grid-rows-[1fr_1px_auto_1px_1fr] bg-white [--pattern-fg:var(--color-gray-950)]/5 dark:bg-gray-950 dark:[--pattern-fg:var(--color-white)]/10">
-      <div className="col-start-3 row-start-3 flex flex-col bg-gray-100 p-2 dark:bg-white/10">
+    <div className="grid min-h-screen grid-cols-[1fr_2.5rem_auto_2.5rem_1fr] grid-rows-[1fr_1px_auto_1px_1fr] bg-gray-950 [--pattern-fg:var(--color-white)]/10">
+      <div className="col-start-3 row-start-3 flex flex-col bg-white/10 p-2">
         <Image
           aria-hidden
           src="/blog/avatar.jpg"
