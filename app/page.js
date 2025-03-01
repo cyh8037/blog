@@ -6,7 +6,7 @@ export default function Home() {
       <div className="col-start-3 row-start-3 flex flex-col bg-gray-100 p-2 dark:bg-white/10">
         <Image
           aria-hidden
-          src="/avatar.jpg"
+          src="/blog/avatar.jpg"
           alt="Globe icon"
           width={72}
           height={72}
